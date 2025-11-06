@@ -28,6 +28,9 @@ Simple and clean interface for easy understanding
 
 📸 Visualization
 
+<img width="1583" height="745" alt="image" src="https://github.com/user-attachments/assets/61a19421-7dae-47b1-b332-92cd0e590b94" />
+
+
 Shows processes, resources, and allocation dynamically
 Highlights safe and unsafe states in real time
 
