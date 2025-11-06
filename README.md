@@ -21,7 +21,7 @@ Simple and clean interface for easy understanding
     git clone https://github.com/<your-username>/Deadlock-Avoidence-Visualizer.git
     
 # Open the project folder
-    cd BankersAlgorithm-Visualizer
+    cd Deadlock-Avoidence-Visualizer
     
  # Run the project
     Open index.html in your browser
