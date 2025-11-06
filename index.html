@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Deadlock Avoidance Simulator</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>🧩 Deadlock Avoidance Simulator</h1>
+
+    <div class="controls">
+      <button id="addProcess">Add Process</button>
+      <button id="addResource">Add Resource</button>
+      <button id="requestEdge">Request Resource</button>
+      <button id="releaseResource">Release Resource</button>
+      <button id="reset">Reset</button>
+    </div>
+
+    <div id="graph"></div>
+
+    <div id="right-panel">
+      <div id="log" class="card"></div>
+      <div id="stats" class="card">
+        <h3>System State</h3>
+        <div id="holders"></div>
+        <div id="pending"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
